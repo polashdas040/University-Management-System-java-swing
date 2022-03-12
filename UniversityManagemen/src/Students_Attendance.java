@@ -390,7 +390,7 @@ public class Students_Attendance extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(null, "Enter student Attendance Date");
             return false;
         } else if (Adate.getDate().compareTo(new Date()) > 0) {
-            JOptionPane.showMessageDialog(null, "Future Attendance Are Not Allowed");
+            JOptionPane.showMessageDialog(null, "Future Attendance is Not Allowed");
             return false;
         } else {
             return true;

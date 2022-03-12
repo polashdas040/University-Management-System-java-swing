@@ -262,7 +262,7 @@ public class ManageCourse extends javax.swing.JFrame {
 
     private void removeCourseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_removeCourseActionPerformed
         if (ID.getText().equals("")) {
-            JOptionPane.showMessageDialog(null, "No Student Selected");
+            JOptionPane.showMessageDialog(null, "No Course Selected");
         } else {
 
             int id = Integer.valueOf(ID.getText());
@@ -299,7 +299,7 @@ public class ManageCourse extends javax.swing.JFrame {
 
     private void addBtn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addBtn1ActionPerformed
         if (ID.getText().equals("")) {
-            JOptionPane.showMessageDialog(null, "No Student Selected");
+            JOptionPane.showMessageDialog(null, "No Course Selected");
         } else {
             int id = Integer.valueOf(ID.getText());
             String label = Jlabel.getText();
