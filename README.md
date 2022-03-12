@@ -10,7 +10,8 @@ MySql JDBC Driver-mysql-connector-java</br>
 <h3>Admin login: </h3>
 <h4>username:</h4> admin
 <h4>password:</h4> admin 
-
+<h2>More Details 
+<a href="https://www.pcodep.com/">www.pcodep.com</a></h2>
  <h2 align="center">
    <img src="Photos/login.png"/>
 </h2>
