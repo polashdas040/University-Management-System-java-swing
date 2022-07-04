@@ -180,7 +180,7 @@ public class LoginForm extends javax.swing.JFrame {
             PreparedStatement ps;
 
             try {
-                ps = con.prepareStatement("select * from user where user_name = ? and password = ?");
+                ps = con.prepareStatement("select * from admin where admin_name = ? and password = ?");
                 ps.setString(1, username.getText());
                 ps.setString(2, String.valueOf(password.getPassword()));
 
@@ -271,5 +271,3 @@ public class LoginForm extends javax.swing.JFrame {
     public static javax.swing.JTextField username;
     // End of variables declaration//GEN-END:variables
 }
-
-//5

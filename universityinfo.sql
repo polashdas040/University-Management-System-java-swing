@@ -228,20 +228,20 @@ INSERT INTO `teachers_attendance` (`id`, `name`, `dept`, `date`, `attendance`) V
 -- --------------------------------------------------------
 
 --
--- Table structure for table `user`
+-- Table structure for table `admin`
 --
 
-CREATE TABLE `user` (
+CREATE TABLE `admin` (
   `id` int(11) NOT NULL,
-  `user_name` varchar(20) NOT NULL,
+  `admin_name` varchar(20) NOT NULL,
   `password` varchar(20) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data for table `user`
+-- Dumping data for table `admin`
 --
 
-INSERT INTO `user` (`id`, `user_name`, `password`) VALUES
+INSERT INTO `admin` (`id`, `admin_name`, `password`) VALUES
 (1, 'admin', 'admin'),
 (9, 'admin2', 'admin2'),
 (10, 'admin3', 'admin3');
@@ -288,9 +288,9 @@ ALTER TABLE `teachers_attendance`
   ADD KEY `fk_teacher_teachers_attendance` (`id`);
 
 --
--- Indexes for table `user`
+-- Indexes for table `admin`
 --
-ALTER TABLE `user`
+ALTER TABLE `admin`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -316,9 +316,9 @@ ALTER TABLE `teacher`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1035;
 
 --
--- AUTO_INCREMENT for table `user`
+-- AUTO_INCREMENT for table `admin`
 --
-ALTER TABLE `user`
+ALTER TABLE `admin`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --

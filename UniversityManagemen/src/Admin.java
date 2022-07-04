@@ -15,7 +15,7 @@ public class Admin {
 
         if (op == 'i') {
             try {
-                ps = con.prepareStatement("INSERT INTO user(user_name, password) VALUES (?,?)");
+                ps = con.prepareStatement("INSERT INTO admin(admin_name, password) VALUES (?,?)");
                 ps.setString(1, UserName);
                 ps.setString(2, Password);
 
